@@ -55,4 +55,7 @@ def get_mean_std(data):
     return [mean_data, std_data]
 
 
+#This is a basic loop
+for i in array_a:
+    print(i)
 
