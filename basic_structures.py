@@ -46,6 +46,13 @@ array_a.mean()
 array_a.std()
 
 
+#This is a basic function
+def get_mean_std(data):
+#data should be an array
+
+    mean_data = data.mean()
+    std_data = data.std()
+    return [mean_data, std_data]
 
 
 
